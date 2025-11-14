@@ -1,0 +1,22 @@
+if SHIELD_PAW3222_TEST
+
+    config ZMK_KEYBOARD_NAME
+        default "PAW3222_TEST"
+
+    config ZMK_MOUSE
+        bool
+        default y
+
+    config PAW3222
+        bool
+        default y
+
+    config INPUT
+        bool
+        default y
+
+    config SPI
+        bool
+        default y
+
+endif
